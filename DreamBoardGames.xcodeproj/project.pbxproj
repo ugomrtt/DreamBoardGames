@@ -19,6 +19,8 @@
 		3A7232DE2942162C00C0C139 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232DD2942162C00C0C139 /* GameListView.swift */; };
 		3A7232E02942168F00C0C139 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232DF2942168F00C0C139 /* GameCell.swift */; };
 		3A7232E2294216CB00C0C139 /* GameImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232E1294216CB00C0C139 /* GameImage.swift */; };
+		3A7232E42942177B00C0C139 /* SearchGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232E32942177B00C0C139 /* SearchGameView.swift */; };
+		3A7232E8294217B500C0C139 /* root.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A7232E7294217B500C0C139 /* root.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		3A7232DD2942162C00C0C139 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
 		3A7232DF2942168F00C0C139 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 		3A7232E1294216CB00C0C139 /* GameImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImage.swift; sourceTree = "<group>"; };
+		3A7232E32942177B00C0C139 /* SearchGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGameView.swift; sourceTree = "<group>"; };
+		3A7232E7294217B500C0C139 /* root.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = root.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				3A7232C2294211A800C0C139 /* DreamBoardGamesApp.swift */,
+				3A7232E9294217FA00C0C139 /* Ressources */,
 				3A7232DA294215BA00C0C139 /* View */,
-				3A7232C8294211A900C0C139 /* Preview Content */,
 				3A7232D5294212FF00C0C139 /* ViewModel */,
 				3A7232D02942126200C0C139 /* Model */,
-				3A7232C6294211A900C0C139 /* Assets.xcassets */,
-				3A7232DF2942168F00C0C139 /* GameCell.swift */,
 				3A7232E1294216CB00C0C139 /* GameImage.swift */,
+				3A7232DF2942168F00C0C139 /* GameCell.swift */,
+				3A7232E7294217B500C0C139 /* root.json */,
 			);
 			path = DreamBoardGames;
 			sourceTree = "<group>";
@@ -82,6 +86,7 @@
 		3A7232C8294211A900C0C139 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3A7232C6294211A900C0C139 /* Assets.xcassets */,
 				3A7232C9294211A900C0C139 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -109,10 +114,19 @@
 			isa = PBXGroup;
 			children = (
 				3A7232C4294211A800C0C139 /* ContentView.swift */,
+				3A7232E32942177B00C0C139 /* SearchGameView.swift */,
 				3A7232DB2942160800C0C139 /* TopGamesView.swift */,
 				3A7232DD2942162C00C0C139 /* GameListView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3A7232E9294217FA00C0C139 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3A7232C8294211A900C0C139 /* Preview Content */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7232E8294217B500C0C139 /* root.json in Resources */,
 				3A7232CA294211A900C0C139 /* Preview Assets.xcassets in Resources */,
 				3A7232C7294211A900C0C139 /* Assets.xcassets in Resources */,
 			);
@@ -191,6 +206,7 @@
 				3A7232D92942134E00C0C139 /* GamesViewModel.swift in Sources */,
 				3A7232C3294211A800C0C139 /* DreamBoardGamesApp.swift in Sources */,
 				3A7232DC2942160800C0C139 /* TopGamesView.swift in Sources */,
+				3A7232E42942177B00C0C139 /* SearchGameView.swift in Sources */,
 				3A7232D72942131A00C0C139 /* GameDetailView.swift in Sources */,
 				3A7232E2294216CB00C0C139 /* GameImage.swift in Sources */,
 				3A7232DE2942162C00C0C139 /* GameListView.swift in Sources */,
@@ -322,7 +338,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DreamBoardGames/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DreamBoardGames/Ressources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -350,7 +366,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DreamBoardGames/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DreamBoardGames/Ressources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
