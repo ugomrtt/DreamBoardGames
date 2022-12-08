@@ -11,6 +11,8 @@
 		3A7232C5294211A800C0C139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232C4294211A800C0C139 /* ContentView.swift */; };
 		3A7232C7294211A900C0C139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7232C6294211A900C0C139 /* Assets.xcassets */; };
 		3A7232CA294211A900C0C139 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7232C9294211A900C0C139 /* Preview Assets.xcassets */; };
+		3A7232D22942128000C0C139 /* GameFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232D12942128000C0C139 /* GameFetcher.swift */; };
+		3A7232D4294212C000C0C139 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232D3294212C000C0C139 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3A7232C4294211A800C0C139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A7232C6294211A900C0C139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7232C9294211A900C0C139 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A7232D12942128000C0C139 /* GameFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFetcher.swift; sourceTree = "<group>"; };
+		3A7232D3294212C000C0C139 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				3A7232C2294211A800C0C139 /* DreamBoardGamesApp.swift */,
+				3A7232D02942126200C0C139 /* Model */,
 				3A7232C4294211A800C0C139 /* ContentView.swift */,
 				3A7232C6294211A900C0C139 /* Assets.xcassets */,
 				3A7232C8294211A900C0C139 /* Preview Content */,
@@ -65,6 +70,15 @@
 				3A7232C9294211A900C0C139 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A7232D02942126200C0C139 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A7232D12942128000C0C139 /* GameFetcher.swift */,
+				3A7232D3294212C000C0C139 /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7232C5294211A800C0C139 /* ContentView.swift in Sources */,
+				3A7232D22942128000C0C139 /* GameFetcher.swift in Sources */,
 				3A7232C3294211A800C0C139 /* DreamBoardGamesApp.swift in Sources */,
+				3A7232D4294212C000C0C139 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
