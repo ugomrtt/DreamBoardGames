@@ -15,6 +15,10 @@
 		3A7232D4294212C000C0C139 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232D3294212C000C0C139 /* Game.swift */; };
 		3A7232D72942131A00C0C139 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232D62942131A00C0C139 /* GameDetailView.swift */; };
 		3A7232D92942134E00C0C139 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232D82942134E00C0C139 /* GamesViewModel.swift */; };
+		3A7232DC2942160800C0C139 /* TopGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232DB2942160800C0C139 /* TopGamesView.swift */; };
+		3A7232DE2942162C00C0C139 /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232DD2942162C00C0C139 /* GameListView.swift */; };
+		3A7232E02942168F00C0C139 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232DF2942168F00C0C139 /* GameCell.swift */; };
+		3A7232E2294216CB00C0C139 /* GameImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7232E1294216CB00C0C139 /* GameImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		3A7232D3294212C000C0C139 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3A7232D62942131A00C0C139 /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
 		3A7232D82942134E00C0C139 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		3A7232DB2942160800C0C139 /* TopGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGamesView.swift; sourceTree = "<group>"; };
+		3A7232DD2942162C00C0C139 /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		3A7232DF2942168F00C0C139 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		3A7232E1294216CB00C0C139 /* GameImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,14 @@
 		3A7232C1294211A800C0C139 /* DreamBoardGames */ = {
 			isa = PBXGroup;
 			children = (
-				3A7232D5294212FF00C0C139 /* ViewModel */,
-				3A7232C8294211A900C0C139 /* Preview Content */,
 				3A7232C2294211A800C0C139 /* DreamBoardGamesApp.swift */,
+				3A7232DA294215BA00C0C139 /* View */,
+				3A7232C8294211A900C0C139 /* Preview Content */,
+				3A7232D5294212FF00C0C139 /* ViewModel */,
 				3A7232D02942126200C0C139 /* Model */,
-				3A7232C4294211A800C0C139 /* ContentView.swift */,
 				3A7232C6294211A900C0C139 /* Assets.xcassets */,
+				3A7232DF2942168F00C0C139 /* GameCell.swift */,
+				3A7232E1294216CB00C0C139 /* GameImage.swift */,
 			);
 			path = DreamBoardGames;
 			sourceTree = "<group>";
@@ -93,6 +103,16 @@
 				3A7232D82942134E00C0C139 /* GamesViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3A7232DA294215BA00C0C139 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A7232C4294211A800C0C139 /* ContentView.swift */,
+				3A7232DB2942160800C0C139 /* TopGamesView.swift */,
+				3A7232DD2942162C00C0C139 /* GameListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +187,13 @@
 			files = (
 				3A7232C5294211A800C0C139 /* ContentView.swift in Sources */,
 				3A7232D22942128000C0C139 /* GameFetcher.swift in Sources */,
+				3A7232E02942168F00C0C139 /* GameCell.swift in Sources */,
 				3A7232D92942134E00C0C139 /* GamesViewModel.swift in Sources */,
 				3A7232C3294211A800C0C139 /* DreamBoardGamesApp.swift in Sources */,
+				3A7232DC2942160800C0C139 /* TopGamesView.swift in Sources */,
 				3A7232D72942131A00C0C139 /* GameDetailView.swift in Sources */,
+				3A7232E2294216CB00C0C139 /* GameImage.swift in Sources */,
+				3A7232DE2942162C00C0C139 /* GameListView.swift in Sources */,
 				3A7232D4294212C000C0C139 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
